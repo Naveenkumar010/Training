@@ -16,10 +16,10 @@ if(i==b)
 printf("Reached Max level");
 }
 }
-for(i=a;i>=b;i--)
+for(i=b;i>=a;i--)
 {
 printf("tank level is %d \n",i);
-if(i==0)
+if(i==a)
 {
 printf("tank level is empty");
 }
